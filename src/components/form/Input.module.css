@@ -1,0 +1,18 @@
+.box_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;    
+    padding: .5em;
+}
+
+.box_input input {
+    border: none;
+    padding: 3px;
+    height: 25px;
+    width: 300px;
+}
+
+.box_input input::placeholder {
+    color: #cdcdcd;
+}

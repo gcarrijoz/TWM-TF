@@ -1,0 +1,23 @@
+.box_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;    
+    padding: .5em;
+
+}
+
+.box_btn button {
+    width: 70%;
+    border: none;
+    padding: 3px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #0A2E4E;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.box_btn button:hover {
+    background-color: #4A90E2;
+}

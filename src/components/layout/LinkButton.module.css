@@ -1,0 +1,40 @@
+.box_btn{
+    width: 200px;
+    height: 30px;
+    background-color: #0A2E4E;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: #CCCCCC;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box_btn:hover{
+    background-color: #4A90E2;
+}
+
+.box_btn_editar{
+    width: 70px;
+    height: 25px;
+    background-color: #0A2E4E;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_btn_editar:hover{
+    background-color: #4A90E2;
+}
+

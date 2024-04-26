@@ -1,0 +1,55 @@
+.box_item{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 15px 0px;
+}
+
+.div_botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box_item button {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 3px;
+
+    font-weight: bold;
+    width: 70px;
+    height: 25px;
+}
+
+.box_item button:hover{
+    background-color: rgb(142, 0, 0);
+}
+
+.status {
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.statusAndamento {
+    background-color: blue; /* Cor de fundo para status "Em andamento" */
+    color: white; /* Cor do texto para status "Em andamento" */
+}
+
+.statusAberto {
+    background-color: gray; 
+    color: black; 
+}
+
+.statusConcluido {
+    background-color: green; /* Cor de fundo para status "Concluído" */
+    color: white; /* Cor do texto para status "Concluído" */
+}
